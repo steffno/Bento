@@ -13,7 +13,7 @@ var tempUnit = 'C';
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = 'aa5b0a76dfbf87441928fb3cc32d3d72';
+const key = 'ee83f3cbc06324c30f3cc93653b2f0e1';
 
 // Set Position function
 setPosition();
@@ -21,8 +21,8 @@ setPosition();
 function setPosition(position) {
   // Here you can change your position
   // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
-  let latitude = 37.774929;
-  let longitude = -122.419418;
+  let latitude = 42.661270;
+  let longitude = 13.698530;
 
   getWeather(latitude, longitude);
 }
